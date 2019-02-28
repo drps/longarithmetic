@@ -3,9 +3,6 @@
 require 'src/LongNumber.php';
 require 'src/LongNumberSumCalculator.php';
 
-$a = $argv[1] ?? 999;
-$b = $argv[2] ?? 111;
-
 echo "Enter 'q' to quit application\n";
 while (true) {
     $a = setOrQuit("Enter  a: ");
